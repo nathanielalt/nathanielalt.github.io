@@ -140,14 +140,10 @@
       gap: 1px;
     }
 
-    .toc-sub li a {
-      font-size: 12px;
-    }
+    .toc-sub li a { font-size: 12px; }
 
     /* ── Main content ── */
-    main {
-      padding: 48px 52px 120px 52px;
-    }
+    main { padding: 48px 52px 120px 52px; }
 
     section {
       margin-bottom: 96px;
@@ -239,9 +235,10 @@
       margin-bottom: 12px;
     }
 
+    /* UPDATED COLOR FOR READABILITY */
     .body-text {
-      color: var(--muted);
-      max-width: 540px;
+      color: var(--fg); 
+      max-width: 680px; /* Widened to match table better */
       line-height: 1.85;
       font-size: 14px;
     }
@@ -305,7 +302,6 @@
   </nav>
 
   <div class="page-wrap">
-
     <aside class="toc">
       <div class="toc-title">Contents</div>
       <ul class="toc-list">
@@ -348,7 +344,7 @@
 
           <div style="margin: 32px 0; text-align: center;">
             <img src="Understand the problem fully, organize and break down the problem into subparts, understand who it is for and the expectations required.png" 
-                 alt="Nathan Xia Engineering Design Process: Framing, Diverging, Represent, Converging" 
+                 alt="Nathan Xia Engineering Design Process" 
                  style="width: 100%; max-width: 500px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid var(--border);">
             <p style="font-size: 11px; color: var(--muted); margin-top: 12px; font-family: var(--mono); letter-spacing: 0.05em; text-transform: uppercase;">
               Figure 1: Visual Representation of my Iterative Design Process
@@ -399,11 +395,11 @@
               </tr>
             </tbody>
           </table>
-        </div>
-        <p style="margin-top: 24px; margin-bottom: 20px;">
-  From my initial narrowed stance of engineering design at the start of the semester, I have since broadened my perspective and understand the importance of other values within engineering design. These values, such as <strong>simplicity</strong>, have been implemented in later designs such as Praxis II. I hope that as my design philosophy continues to change as I gain more experience, my capabilities as an engineer will continue to update and improve.
-</p>
-      </section>
+
+          <p style="margin-top: 24px; margin-bottom: 20px;">
+            From my initial narrowed stance of engineering design at the start of the semester, I have since broadened my perspective and understand the importance of other values within engineering design. These values, such as <strong>simplicity</strong>, have been implemented in later designs such as Praxis II. I hope that as my design philosophy continues to change as I gain more experience, my capabilities as an engineer will continue to update and improve.
+          </p>
+        </div> </section>
 
       <section id="praxis-i">
         <div class="section-label">Praxis I Design Report</div>
@@ -438,14 +434,23 @@
       <section id="civ-bridge">
         <div class="section-label">Structural Design</div>
         <h2>CIV102 Bridge Project</h2>
-        <div class="placeholder">Your content goes here</div>
+        <div class="subsection" id="one-pager-civ">
+          <div class="subsection-label">Subheading</div>
+          <h3>One-Pager</h3>
+          <div class="placeholder">Your content goes here</div>
+        </div>
+        <div class="subsection" id="ctmf-civ">
+          <div class="subsection-label">Subheading</div>
+          <h3>CTMF Analysis</h3>
+          <div class="placeholder">Your content goes here</div>
+        </div>
       </section>
     </main>
   </div>
 
   <footer>
     <span>© 2026 Nathan Xia</span>
-    <span>yourusername.github.io</span>
+    <span>nathanielalt.github.io</span>
   </footer>
 
   <script>
@@ -464,6 +469,5 @@
 
     sections.forEach(s => observer.observe(s));
   </script>
-
 </body>
 </html>
