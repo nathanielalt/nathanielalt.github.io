@@ -505,6 +505,9 @@ In my original position statement, I only highlighted the impact of past enginee
              alt="Nathan Xia Engineering Design Process" 
              style="width: 100%; max-width: 500px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid var(--border); margin-top: 20px;">
       </div>
+      <p style="margin-bottom: 20px; text-indent: 40px;">
+      Through the use of reference designs, and proxy tests, each design decision from the choice of rope to the internal mechanism was carefully justified through intelligent design. Oftentimes throughout this process the team had to jump back to the framing step or diverging step to solve subproblems. This was done to determine the optimal variable resistance mechanism, as well as the optimal shape. All of these steps fit within my description of intelligent and iterative design, and follow my updated position closely.
+      </p>
     </div>
   </div>
   <div class="subsection" id="ctmf-ii">
@@ -513,20 +516,82 @@ In my original position statement, I only highlighted the impact of past enginee
     <div class="placeholder">Your content goes here</div>
   </div>
 </section>
-      <section id="civ-bridge">
-        <div class="section-label">Structural Design</div>
-        <h2>CIV102 Bridge Project</h2>
-        <div class="subsection" id="one-pager-civ">
-          <div class="subsection-label">Subheading</div>
-          <h3>One-Pager</h3>
-          <div class="placeholder">Your content goes here</div>
-        </div>
-        <div class="subsection" id="ctmf-civ">
-          <div class="subsection-label">Subheading</div>
-          <h3>CTMF Analysis</h3>
-          <div class="placeholder">Your content goes here</div>
-        </div>
-      </section>
+
+<section id="civ-bridge">
+  <div class="section-label">Structural Design</div>
+  <h2>CIV102 Bridge Project</h2>
+  <div class="subsection" id="one-pager-civ">
+    <div class="subsection-label">Subheading</div>
+    <h3>One-Pager</h3>
+    <div class="body-text fade">
+      <p style="margin-bottom: 20px; text-indent: 40px;">
+        CIV102 is an introductory class to engineering design and civil engineering taken by Engineering Science students in the first semester of year one. Its purpose is to teach students good engineering practice and techniques in the context of civil engineering. Throughout the course, students are taught various concepts such as: factors of safety (FOS), modes of failure, bending moment diagrams and shear force diagrams. At the end of the semester, students are tasked with putting their knowledge on display by designing their own bridge cross section, made entirely out of contact cement and matboard. Each team of three is constrained to one 813mm x 1016mm x 1.27mm sheet of Matboard, and two 30mL tubes of contact cement to work with. The purchasing of more materials is prohibited. These bridges are put to the test with increasing amounts of weight in the form of “trains” to determine their strength. These trains provide force at various contact points, increasing the complexity of the engineering problem. 
+      </p>
+      
+      <div style="margin: 32px 0; text-align: center;">
+        <img src="CIV Train.png" 
+             alt="Nathan Xia Engineering Design Process" 
+             style="width: 100%; max-width: 500px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid var(--border);">
+        <p style="font-size: 11px; color: var(--muted); margin-top: 12px; font-family: var(--mono); letter-spacing: 0.05em; text-transform: uppercase;">
+          Figure 4: Diagram outlining the train and mass used to test the bridges
+        </p>
+        
+        <img src="CIV Test.png" 
+             alt="Nathan Xia Engineering Design Process" 
+             style="width: 100%; max-width: 500px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid var(--border); margin-top: 20px;">
+        <p style="font-size: 11px; color: var(--muted); margin-top: 12px; font-family: var(--mono); letter-spacing: 0.05em; text-transform: uppercase;">
+          Figure 5: Diagram outlining the loading procedure during testing
+        </p>
+      </div>
+
+      <p style="margin-bottom: 20px; text-indent: 40px;">
+        Exact testing details, however, were hidden from the class until the day of testing, to prevent any trivial solutions that play on any flaws in the testing procedure itself. Scoring was done based on the strength to weight ratio.
+        It is important to note that for this project, the problem and expectations were already formally defined, and so no additional framing was required during the engineering design process.
+        Due to the staggering amount of calculations beginning the design process and iterating, students were encouraged to simulate designs through scripts. These scripts were used to make graphs, and predict failure modes, ultimately determining the direction for iteration. An emphasis on intelligent iterative design practices.
+      </p>
+
+      <div style="margin: 32px 0; text-align: center;">
+        <img src="SFD.png" 
+             alt="Nathan Xia Engineering Design Process" 
+             style="width: 100%; max-width: 500px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid var(--border); margin-top: 20px;">
+        <p style="font-size: 11px; color: var(--muted); margin-top: 12px; font-family: var(--mono); letter-spacing: 0.05em; text-transform: uppercase;">
+          Figure 6: Shear force diagram produced from code as train moves along the bridge.
+        </p>
+      </div>
+
+      <p style="margin-bottom: 20px; text-indent: 40px;">
+        After iterating through numerous reference designs, a PI beam design was chosen as the optimal cross sectional diagram as it plays into the two weakest points in the matboard. 
+        It also allows for more diaphragms to be placed into the design, which help account for gaps in the equations. Furthermore, the simplistic design requires the least folds and cuts, which gives more tolerance for errors in construction that could impact the performance of the build in real world testing. However, the construction proved to be more daunting of a task than expected, and long hours clouded judgement during construction. All of these factors impacted the final results of the testing, which were suboptimal. Mentions differ in code prediction output.
+      </p>
+
+      <div style="margin: 32px 0; text-align: center;">
+        <img src="X-Sect.png" 
+             alt="Nathan Xia Engineering Design Process" 
+             style="width: 100%; max-width: 500px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid var(--border); margin-top: 20px;">
+        <p style="font-size: 11px; color: var(--muted); margin-top: 12px; font-family: var(--mono); letter-spacing: 0.05em; text-transform: uppercase;">
+          Figure 7: Final bridge cross section using a PI beam design
+        </p>
+        
+        <img src="Bridge.png" 
+             alt="Nathan Xia Engineering Design Process" 
+             style="width: 100%; max-width: 500px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid var(--border); margin-top: 20px;">
+        <p style="font-size: 11px; color: var(--muted); margin-top: 12px; font-family: var(--mono); letter-spacing: 0.05em; text-transform: uppercase;">
+          Figure 8: Completed bridge construction
+        </p>
+      </div>
+
+      <p style="margin-bottom: 20px; text-indent: 40px;">
+        This entire procedure, with the exception of the framing aspect, follows my defined engineering process very closely. Every design was backed by reference designs, and every decision was one made using intelligence in that it was properly justified. Iteration was also a key aspect of this project, as we went through ~10-20 iterations for each design before determining the optimal choice. Rigour was a key motivator in every aspect of this engineering process.
+      </p>
+    </div>
+  </div>
+  
+  <div class="subsection" id="ctmf-civ">
+    <div class="subsection-label">Subheading</div>
+    <h3>CTMF Analysis</h3>
+    <div class="placeholder">Your content goes here</div>
+  </div>
+</section>
     </main>
   </div>
 
